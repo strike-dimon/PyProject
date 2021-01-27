@@ -1,4 +1,6 @@
+a = int(input("Введите число:"))
 nums = [4, 1, 6, 3, 3, 2, 7, 8]
+nums.append(a)
 n = 1
 while n < len(nums):
     for i in range(len(nums) - n):
