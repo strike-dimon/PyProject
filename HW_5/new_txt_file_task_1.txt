@@ -1,0 +1,2 @@
+All the variables are declared in the local scope and their references are seen in the figure above.
+In this article, we have learned how to count the number of words in the sentence.
