@@ -6,12 +6,14 @@ Handle (маркер). В каждом из классов реализоват�
 экземпляра.
 """
 
+
 class Stationery:
     def __init__(self, title):
         self.title = title
 
     def draw(self):
         print(f"Запуск отрисовки {self.title}")
+
 
 class Pen(Stationery):
     def __init__(self, title):
