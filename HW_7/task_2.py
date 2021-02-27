@@ -25,7 +25,7 @@ class Clothes:
 
     def __add__(self, other):
         Clothes.result += self.consuption + other.consuption
-        return suit(0)
+        return Suit(0)
 
     def __str__(self):
         return f"{Clothes.result}"
